@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/gilroy-regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/gilroy-medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/gilroy-semibold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/gilroy-bold.ttf);
+    font-weight: 700;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Gilroy';
+    background-color: #fff;
+    width: 1319px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.top {
+    margin-bottom: 17%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 115px;
+    gap: 500px;
+    margin-bottom: 50px;
+}
+
+.header_logo {
+    display: flex;
+    width: 35px;
+    height: 40px;
+    gap: 14px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.header_name {
+    display: flex;
+    align-items: center;
+}
+
+.header_name-1 {
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.header_name-2 {
+    color: #F25822;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.header_menu {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header_menu_home {
+    color: #F25822;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.intro_sup-title {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.intro {
+    display: flex;
+    gap: 40px;
+}
+
+.intro_title {
+    color: #888;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 37px;
+}
+
+.intro_button-wrapper {
+    display: flex;
+    gap: 72px;
+}
+
+.intro_button_start {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: none;
+}
+
+.intro_button {
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #fff;
+    border: none;
+}
+
+
+
+
+.footer {
+    display: flex;
+    width: 1319px;
+    height: 243px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+}
