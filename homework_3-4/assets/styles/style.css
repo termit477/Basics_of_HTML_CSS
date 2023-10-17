@@ -31,7 +31,7 @@
 html {
     font-family: 'Gilroy';
     background-color: #fff;
-    width: 1319px;
+    width: 1170px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -41,16 +41,11 @@ a {
     color: #000;
 }
 
-.top {
-    margin-bottom: 17%;
-}
-
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 115px;
-    gap: 500px;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 
@@ -86,7 +81,8 @@ a {
 
 .header_menu {
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
+    width: 533px;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -101,21 +97,24 @@ a {
     line-height: normal;
 }
 
+.intro {
+    display: flex;
+    gap: 40px;
+    margin-right: 64px;
+}
+
 .intro_sup-title {
+    width: 522px;
     color: #000;
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 20px;
-}
-
-.intro {
-    display: flex;
-    gap: 40px;
+    margin-bottom: 17px;
 }
 
 .intro_title {
+    width: 466px;
     color: #888;
     font-size: 20px;
     font-style: normal;
@@ -123,6 +122,10 @@ a {
     line-height: normal;
     margin-bottom: 37px;
 }
+
+/* .intro_image {
+    margin-right: 64px;
+} */
 
 .intro_button-wrapper {
     display: flex;
@@ -154,13 +157,9 @@ a {
     border: none;
 }
 
-
-
-
 .footer {
+    margin-top: 260px;
     display: flex;
-    width: 1319px;
-    height: 243px;
     flex-shrink: 0;
     justify-content: space-between;
     align-items: center;
