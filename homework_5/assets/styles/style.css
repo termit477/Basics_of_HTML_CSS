@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/gilroy-regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/gilroy-bold.ttf);
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Gilroy';
+    background: #FAFAFA;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.head_card {
+    padding: 40px 31px 25px 29px;
+}
+
+.head_card_center {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.head_card_image {
+    margin-left: 1px;
+    flex-shrink: 0;
+}
+
+.head_card_title {
+    margin-top: 25px;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.head_card_text {
+    margin-top: 17px;
+    width: 310px;
+
+    color: #666;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.head_card_link {
+    margin-top: 25px;
+
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+
+.base_title {
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.base_text {
+    text-align: center;
+    width: 682px;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #666;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.base_card_section {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+
+.base_card {
+    background: #FFF;
+    width: 370px;
+}
+
+.base_card_center {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.base_card_content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 30px 50px 30px;
+}
+
+.base_card_title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.base_card_text {
+    margin-top: 22px;
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.base_card_link {
+    margin-top: 39px;
+    margin-left: 70px;
+    margin-right: 90px;
+    flex-shrink: 0;
+}
