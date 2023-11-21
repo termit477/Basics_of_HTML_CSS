@@ -253,11 +253,50 @@ html {
     line-height: normal;
 }
 
+.advantage_color {
+    background-color: #222224;
+}
+
+.advantage {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 341px;
+}
+
+.advantage_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantage_block_title {
+    color: #FBFBFB;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+    margin-bottom: 16px;
+}
+
+.advantage_block_text {
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 325px;
+}
+
+
+
 @media (max-width: 1439px) {
 
     .center {
         max-width: 735px;
-
     }
 
     .header_color {
@@ -280,16 +319,6 @@ html {
         font-size: 24px;
     }
 
-
-    /* .main {
-        justify-items: center;
-    }
-
-    .main_image {
-        justify-content: center;
-        align-items: center;
-    } */
-
     .menu {
         gap: 19px;
     }
@@ -301,5 +330,53 @@ html {
     .shop {
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .center {
+        max-width: 343px;
+    }
+
+    .hide-button {
+        display: none;
+    }
+
+    .main {
+        height: 363px;
+    }
+
+    .main_image {
+        display: none;
+    }
+
+    .main_name_brand {
+        font-size: 38px;
+    }
+
+    .main_name_of-luxerios {
+        font-size: 20px;
+    }
+
+    .main_name_fasion {
+        font-size: 20px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .max_block {
+        grid-column: 1;
+    }
+
+    .shop {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        justify-items: center;
     }
 }
