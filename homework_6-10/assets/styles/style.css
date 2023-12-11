@@ -143,22 +143,15 @@ html {
     line-height: normal;
 }
 
-
-.button_menu {
-    outline: none;
-    cursor: pointer;
-}
-
 .active:active {
     opacity: 0.5;
 }
 
-.burger:hover .hide_menu {
-    visibility: visible;
+#div1 {
+    display: none;
 }
 
 .hide_menu {
-    visibility: hidden;
     position: absolute;
     top: 75px;
     right: 0;

@@ -9,6 +9,8 @@
 </head>
 
 <body>
+    <script src="./assets/styles/script.js"></script>
+
     <div class="header_color">
         <section class="header center">
             <div class="header_logo-and-find">
@@ -18,11 +20,11 @@
                 </a>
             </div>
 
-            <ul class="header_button">
-                <li class="button_menu burger" href="#">
+            <div class="header_button">
+                <div class="button_menu burger" value="Click" onmousedown="viewDiv()" href="#">
                     <img class="active" src="./assets/images/Button 2.png">
 
-                    <div class="hide_menu">
+                    <div class="hide_menu" id="div1">
                         <div class="hide_menu_pos">
                             <h3 class="hide_menu_head">MENU</h3>
                             <a class="hide_menu_title" href="#">MAN</a>
@@ -53,10 +55,7 @@
                             </div>
                         </div>
                     </div>
-                </li>
-
-
-
+                </div>
 
                 <a href="#">
                     <img class="active" src="./assets/images/Button 3.png">
@@ -66,9 +65,10 @@
                         <img class="active" src="./assets/images/Button 4.png">
                     </div>
                 </a>
-            </ul>
+            </div>
+
+        </section>
     </div>
-    </section>
     </div>
 
     <section class="main center">
@@ -87,8 +87,6 @@
                 </div>
             </div>
         </span>
-
-
     </section>
 
     <div class="base_color">
